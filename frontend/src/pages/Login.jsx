@@ -23,7 +23,7 @@ export default function Login() {
     e.preventDefault();
     try {
       const response = await axios.post(
-        'https://2d8042b8-0a21-4a70-a1e4-332303ca9cde-dev.e1-us-east-azure.choreoapis.dev/sandbook-social-media/backend/v1/login',
+        'https://2d8042b8-0a21-4a70-a1e4-332303ca9cde-dev.e1-us-east-azure.choreoapis.dev/sandbook-social-media/backend/v1.0/login',
         new URLSearchParams({
           username: formData.email,
           password: formData.password

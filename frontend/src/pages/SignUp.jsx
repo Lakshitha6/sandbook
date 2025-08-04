@@ -45,7 +45,7 @@ export default function SignUp() {
     setLoading(true);
 
      try {
-      const response = await axios.post('https://2d8042b8-0a21-4a70-a1e4-332303ca9cde-dev.e1-us-east-azure.choreoapis.dev/sandbook-social-media/backend/v1/createUser', {
+      const response = await axios.post('https://2d8042b8-0a21-4a70-a1e4-332303ca9cde-dev.e1-us-east-azure.choreoapis.dev/sandbook-social-media/backend/v1.0/createUser', {
         name: formData.name,
         email: formData.email,
         password: formData.password,

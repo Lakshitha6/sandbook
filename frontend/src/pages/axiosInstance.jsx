@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const axiosInstance = axios.create({
-  baseURL: 'https://2d8042b8-0a21-4a70-a1e4-332303ca9cde-dev.e1-us-east-azure.choreoapis.dev/sandbook-social-media/backend/v1',
+  baseURL: 'https://2d8042b8-0a21-4a70-a1e4-332303ca9cde-dev.e1-us-east-azure.choreoapis.dev/sandbook-social-media/backend/v1.0',
 });
 
 axiosInstance.interceptors.request.use(
