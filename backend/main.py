@@ -15,10 +15,7 @@ models.Base.metadata.create_all(bind = engine)
 app = FastAPI()
 
 origins = [
-    "http://localhost.tiangolo.com",
-    "http://localhost:3000",
-    "https://1jh3cnh2-3000.asse.devtunnels.ms/",
-    "https://ff49e425-9ea7-4ded-8507-3dfd4a8cbe38.e1-us-east-azure.choreoapps.dev"
+    "*"
 ]
 
 app.add_middleware(
