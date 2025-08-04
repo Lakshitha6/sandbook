@@ -1,6 +1,5 @@
 from datetime import datetime
 from enum import Enum
-from turtle import st
 from httpx import request
 from pydantic import BaseModel,EmailStr
 from typing import Optional
