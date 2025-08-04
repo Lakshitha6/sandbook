@@ -1,0 +1,29 @@
+.footer {
+  margin-top: 2rem;
+  background-color: yellow;
+  text-align: center;
+  color: #000000;
+  font-size: 0.75rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  font-size: medium;
+  font-weight: 500;
+}
+
+.footer a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer a:hover{
+  color: rgb(116, 112, 112);
+}
+
+@media (max-width: 700px) {
+  .footer{
+    display: flex;
+    flex-direction: column;
+}
+}
