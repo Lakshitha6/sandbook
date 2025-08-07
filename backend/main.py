@@ -336,5 +336,5 @@ def delete_post(post_id: int, db: Session = Depends(get_db), current_user: model
     db.commit()
     return {"message": "Post deleted successfully"}
 
-if __name__ == "__main__":
-    uvicorn.run("main:app", host="0.0.0.0", port=8000)
+# if __name__ == "__main__":
+#     uvicorn.run("main:app", host="0.0.0.0", port=8000)
