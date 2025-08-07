@@ -45,7 +45,7 @@ export default function SignUp() {
     setLoading(true);
 
      try {
-      const response = await axios.post('http://localhost:8000/createUser', {
+      const response = await axios.post('https://sandbook-1.onrender.com/createUser', {
         name: formData.name,
         email: formData.email,
         password: formData.password,
