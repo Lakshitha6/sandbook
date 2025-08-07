@@ -23,7 +23,7 @@ export default function Login() {
     e.preventDefault();
     try {
       const response = await axios.post(
-        '/choreo-apis/sandbook-social-media/backend/v1/login',
+        'http://localhost:8000/login',
         new URLSearchParams({
           username: formData.email,
           password: formData.password

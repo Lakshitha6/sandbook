@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const axiosInstance = axios.create({
-  baseURL: '/choreo-apis/sandbook-social-media/backend/v1',
+  baseURL: 'http://localhost:8000',
 });
 
 axiosInstance.interceptors.request.use(
