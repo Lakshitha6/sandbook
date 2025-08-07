@@ -12,7 +12,7 @@ export default function Feedback() {
   const [submitStatus, setSubmitStatus] = useState('');
   const [errors, setErrors] = useState({});
 
-  // Initialize EmailJS - using environment variables for security
+
   const SERVICE_ID = process.env.REACT_APP_EMAILJS_SERVICE_ID || 'service_et2';
   const TEMPLATE_ID = process.env.REACT_APP_EMAILJS_TEMPLATE_ID || 'temlate_5uws';
   const PUBLIC_KEY = process.env.REACT_APP_EMAILJS_PUBLIC_KEY || 'W_tyjP8X6bJ';
